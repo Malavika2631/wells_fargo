@@ -1,0 +1,674 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Slab:wght@100..900&display=swap'); */
+body{
+    font-family: Wells Fargo Sans Regular;
+}
+.container{
+    width: 100%;
+    /* height: 100dvh; */
+}
+.header{
+    background-color: rgb(154, 114, 45);
+    width: 100%;
+    height: 9.5rem;
+    /* border-bottom: 0.5rem solid rgb(230, 174, 34); */
+    display: flex;
+}
+.heading{
+    width: 66rem;
+    padding-left: 3rem;
+}
+h1{
+    font-size: 3.8rem;
+    color: white;
+    font-weight: bold;
+    font-family: Wells Fargo Sans Regular;
+    margin: 0.1rem 5rem;
+    padding: 2.5rem 2rem;
+    width: 36rem;
+    /* display: flex; */
+}
+.list{
+    width: 68rem;
+    height: 4rem;
+    padding: 2rem;
+    margin-left: 80rem;
+    margin-top: 2rem;
+    /* background-color: white; */
+}
+.list ul{
+    display: flex;
+    gap: 4rem;
+    font-size: 2rem;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+li .background{
+    background-color: azure;
+    width: 5rem;
+    height: 6rem;
+    color: black;
+    border-radius: 0.5rem;
+}
+.nav ul{
+    display: flex;
+    /* row-gap: 3rem; */
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style-type:none;
+}
+li i{
+    color: white;
+    width: 4rem;
+    height: 100%;
+}
+.nav{
+    width: 90%;
+    height: 8rem;
+        background-color: rgba(239, 230, 236, 0.567);
+    /* background-color: brown; */
+    margin: auto;
+}
+.nav a{
+    color: black;
+}
+.nav a:hover{
+    text-decoration:dashed
+}
+.nav ul{
+    padding-top: 2rem;
+}
+@font-face{
+    font-family: Wells Fargo Sans Regular;
+    src: url(https://www17.wellsfargomedia.com/assets/fonts/wellsfargosans-rg.woff2) format("woff2"), url(https://www17.wellsfargomedia.com/assets/fonts/wellsfargosans-rg.woff) format("woff");
+}
+.line1 li{
+    max-width: fit-content;
+    padding-top: 2rem;
+}
+.line1 a{
+    color: black;
+    text-decoration: none;
+}
+.line1 ul{
+    gap: 2rem;
+    display: flex;
+    /* justify-content: space-around; */
+    font-size: 2rem;
+    padding-left: 10rem;
+}
+.investing{
+    font-weight: bold;
+    border-bottom: 0.5rem solid rgb(154, 114, 45);
+}
+.box1{
+    background-image: url(../images/wfi_ph_g_1356386941_1400x530.jpg);
+    /* background-color:rgba(235, 232, 232, 0.567); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 70rem;
+    margin: 4rem auto;
+}
+.content1{
+    /* line-height: 9rem; */
+    width: 45%;
+}
+.content1 h2{
+    font-size: 7rem;
+    font-weight: normal;
+    display: flex;
+    padding-top: 15rem;
+    width: 70rem;
+}
+.content1 h3{
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: normal;
+    width: 45rem;
+}
+.content1 button{
+    width: 20rem;
+    font-size:2rem;
+    height: 5rem;
+    background-color: rgb(60, 20, 160);
+    border-radius: 6rem;
+    color: white;
+}
+.dbutton{
+    width: 25rem;
+    height: 4rem;
+    background-color:rgb(60, 20, 160);
+    color: white;
+    margin: auto;
+    border-radius: 2rem;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+.row_grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 0.2fr));
+    justify-content: space-evenly;
+    align-items: normal;
+    /* gap: 0.1rem; */
+    margin: 6rem;
+}
+.box-1, .box-2, .box-3, .box-4{
+    width: 38rem;
+    height: 40rem;
+    background-color: rgba(239, 230, 236, 0.567);
+    border-radius: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; */
+    font-size: 5rem;
+    font-weight:normal;
+    padding: 2rem;
+}
+.box-4{
+    background-color:rgba(239, 230, 236, 0.567);
+    padding-top: 5rem;
+    font-size: 4rem;
+}
+.box-1 img, .box-2 img, .box-3 img{
+    margin: 2rem 12rem;
+    width: 10rem;
+}
+.box-1 p, .box-2 p, .box-3 p, .box-4 p{
+    font-size: 2rem;
+}
+.box-1 a, .box-2 a, .box-3 a, .box-4 a{
+    font-size: 2rem;
+    color: rgb(35, 35, 179);
+    text-decoration: none;
+}
+.box-1 span, .box-2 span, .box-3 span, .box-4 span{
+    color: rgb(35, 35, 179);
+}
+.box-4 img{
+    /* margin-top: 2rem;  */
+    margin-left: 10rem;
+    width: 12rem;
+    height: 12rem;
+}
+.box2{
+    width: 90%;
+    height: 80rem;
+    background-image: url(../images/wfi000_ph_g_1389708237_1600x700.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 4rem auto;
+    font-size: 4rem;
+    padding: 10rem;
+    line-height: 12rem;
+}
+.box2 h2{
+    font-weight: lighter;
+}
+.box2 p{
+    font-size: 3.5rem;
+    width: 65rem;
+    line-height: normal;
+}
+.box2 button{
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    border-radius: 4rem;
+    background-color: white;
+}
+.border{
+    /* border-color: rgb(215, 195, 39); */
+    border: 0.1rem solid rgb(171, 169, 169);
+    width: 15rem;
+    height: 0.1rem;
+    margin: 4rem auto;
+}
+.heading1 p{
+    margin-left: 50rem;   
+    font-size: 6rem;
+    /* font-weight: normal; */
+    font-weight: lighter;
+}
+.grid_col2{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 0.3fr));
+    margin-top: 3rem;
+    margin-left: 17rem;
+}
+.grid_col2 .card1, .grid_col2 .card2, .grid_col2 .card3{
+    width: 50rem;
+    height: 60rem;
+    /* background-color: brown; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 1rem;
+}
+.grid_col2 .card3{
+    background-image: url(../images/couple_in_field_616x353.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.grid_col2 .card1{
+    background-image: url(../images/WFII-Report_Investment-Strategy_Image\ 616x353.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.grid_col2 .card2{
+    background-image: url(../images/wfi000_ph_g_2027802772_616x353.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.grid_col2 .card1, .grid_col2 .card2, .grid_col2 .card3{
+    background-color: white;
+    padding-top: 32rem;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.grid_col2 button{
+    width: 22rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+.grid_col2 button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.app{
+    width: 90%;
+    height: 85rem;
+    background-image: url(../images/app\ ad2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 4rem;
+}
+.border1{
+    margin-top: 6rem;
+    border: 0.1rem solid rgb(171, 169, 169);
+    width: 15rem;
+    height: 0.1rem;
+    margin: auto;
+}
+.heading2{
+    line-height: 14rem;
+}
+.heading2 h3{
+    /* margin: auto; */
+    /* color: black; */
+    font-size: 5rem;
+    margin-left: 70rem;
+    margin-top: 1rem;
+}
+.grid_col3{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 0.47fr));
+    margin-top: 7rem;
+    /* margin: auto; */
+    margin-left: 7rem;
+}
+.grid_col3 .card4, .grid_col3 .card5{
+    width: 75rem;
+    height: 80rem;
+    /* background-color: brown; */
+    margin: auto;
+    border-radius: 1rem;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    background-color: white;
+    padding-top: 50rem;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.grid_col3 .card4{
+    background-image: url(../images/wfi_ph_g_603187036_616x353_couple-no-content.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.grid_col3 .card5{
+    background-image: url(../images/women-in-greenhouse_616x353.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.grid_col3 button{
+    width: 22rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+.grid_col3 button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.grid_col3 h3{
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+}
+.below{
+    width: 170rem;
+    height: 20rem;
+    border: 0.1rem solid black;
+    margin-left: 10rem;
+    padding-left: 4rem;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+.below i{
+    font-size:  1rem;
+    color: black;
+}
+.below ul{
+    display: flex;
+    flex-direction:column;
+}
+.below p{
+    margin-top: -5rem;
+    margin-left: 3rem;
+}
+.paragraph{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.footer{
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(239, 232, 232);
+    border-top: 0.1rem solid rgb(191, 181, 181);
+}
+.footer .line1{
+    line-height: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem; 
+    padding-right: 2.75rem; 
+}
+.footer .line1 a{
+    font-size: 1.75rem;
+}
+.footer .line1 a:hover{
+    text-decoration: underline;
+}
+.footer .line1 ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .line1 span{
+    margin-top: 2rem;
+}
+.footer p{
+    margin-top: 2rem;
+    margin-left: 11rem; 
+}
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .header {
+        flex-direction: row;
+        max-height: max-content;
+        align-items: center;
+    }
+
+    .background{
+        font-size: 1rem;
+        width: fit-content;
+        max-height: max-content;
+        margin-left: -1rem;
+
+    }
+    .heading {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .list {
+        margin: 0;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .list ul {
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 1.4rem;
+        align-items: center;
+    }
+
+    /* NAV */
+    .nav {
+        height: auto;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+
+    /* SUB NAV */
+    .line1 ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+
+    /* HERO */
+    .box1 {
+        height: auto;
+        padding: 2rem;
+        background-size: cover;
+    }
+
+    .content1 {
+        width: 100%;
+    }
+
+    .content1 button{
+        width: 15rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+    .content1 h2 {
+        font-size: 2.5rem;
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .content1 h3 {
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    /* BUTTON */
+    .dbutton {
+        width: 90%;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    /* GRID 4 → 1 */
+    .row_grid {
+        grid-template-columns: 1fr;
+        margin: 2rem;
+        gap: 1rem;
+    }
+
+    .box-1, .box-2, .box-3, .box-4 {
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+    }
+
+    .box-1 p, .box-2 p, .box-3 p, .box-4 p{
+        font-size: 1rem;
+    }
+
+    .box-1 a, .box-2 a, .box-3 a, .box-4 a{
+        font-size: 1rem;
+    }
+    
+   
+    /* IMAGE SECTION */
+    .box2 {
+        height: auto;
+        padding: 2rem;
+        font-size: 1rem;
+        background-size: cover;
+        /* line-height: normal; */
+    }
+
+    .box2 h2{
+        font-weight: bolder;
+    }
+    .box2 button{
+        width: 15rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .box2 p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /* HEADING */
+    .heading1 p {
+        margin: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    /* GRID COL2 */
+    .grid_col2 {
+        grid-template-columns: 1fr;
+        margin: 2rem;
+        gap: 1rem
+        ;
+    }
+
+    .grid_col2 .card1,
+    .grid_col2 .card2,
+    .grid_col2 .card3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .grid_col2 .card1 p,
+    .grid_col2 .card2 p,
+    .grid_col2 .card3 p{
+        font-size: 1rem;
+    }
+
+    .grid_col2 .card1 button,
+    .grid_col2 .card2 button,
+    .grid_col2 .card3 button{
+        width: 15rem;
+        height: 3rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    /* APP */
+    .app {
+        height: 40rem;
+        background-size: 100% 100%;
+    }
+
+    /* HEADING 2 */
+    .heading2 h3 {
+        margin: 0;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    /* GRID COL3 */
+    .grid_col3 {
+        grid-template-columns: 1fr;
+        margin: 2rem;
+        gap: 1rem;
+    }
+
+    .grid_col3 .card4,
+    .grid_col3 .card5 {
+        width: 100%;
+        height: auto;
+        background-size: 100% 50%;
+    }
+
+    .grid_col3 .card4 p,
+    .grid_col3 .card5 p{
+        font-size: 1.5rem;
+    }
+    .grid_col3 .card4 button,
+    .grid_col3 .card5 button{
+        max-width: 15rem;
+        font-size: 1rem;
+        height: 3rem;
+        margin-bottom: 3rem;
+    }
+    /* BELOW */
+    .below {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        font-size: 1rem;
+        padding: 2rem;
+    }
+
+    /* PARAGRAPH */
+    .paragraph {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    /* FOOTER */
+    .footer {
+        height: auto;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .footer .line1 a{
+        font-size: 1rem;
+    }
+    .footer .line1 ul {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .footer p {
+        margin: 1rem 0;
+        text-align: center;
+    }
+}
