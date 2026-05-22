@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 62.5%;
+}
 body{
     font-family: Wells Fargo Sans Regular;
 }
@@ -307,7 +310,7 @@ li i{
     background-size: 100% 40%;
 }
 .box-2 {
-    background-image: url(../images/page4\ box.jpg);
+    background-image: url(../images/page4-box.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 } 

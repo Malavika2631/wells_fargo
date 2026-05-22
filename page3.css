@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 62.5%;
+}
 body{
     font-family: Wells Fargo Sans Regular;
 }
@@ -344,7 +347,7 @@ input{
 .app{
     width: 90%;
     height: 85rem;
-    background-image: url(../images/app\ ad3.png);
+    background-image: url(../images/app-ad3.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: auto;
