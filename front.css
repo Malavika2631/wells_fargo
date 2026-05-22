@@ -258,7 +258,7 @@ input{
 .box2{
     width: 90%;
     height: 80rem;
-    background-image: url(../images/wfi_ph_g_1199830824_1600x700.jpg);
+    background-image: url(images/wfi_ph_g_1199830824_1600x700.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 1rem auto;
@@ -308,17 +308,17 @@ input{
     border-radius: 1rem;
 }
 .grid_col2 .card3{
-    background-image: url(../images/wfi_ph_g_1149062313-173840793_hpsp_616x353.jpg);
+    background-image: url(images/wfi_ph_g_1149062313-173840793_hpsp_616x353.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .grid_col2 .card1{
-    background-image: url(../images/wfi_ph_g_1472303553-lifesync_hpsp_616x353.jpg);
+    background-image: url(images/wfi_ph_g_1472303553-lifesync_hpsp_616x353.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .grid_col2 .card2{
-    background-image: url(../images/wfi_ph_g_1421526094-borrowing_hpsp_616x353.jpg);
+    background-image: url(images/wfi_ph_g_1421526094-borrowing_hpsp_616x353.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -344,7 +344,7 @@ input{
 .app{
     width: 90%;
     height: 85rem;
-    background-image: url(../images/app-ad.png);
+    background-image: url(images/app-ad.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: auto;
@@ -398,12 +398,12 @@ input{
     padding-right: 2rem;
 }
 .grid_col3 .card4{
-    background-image: url(../images/volunteers_cars_616x353.jpg);
+    background-image: url(images/volunteers_cars_616x353.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .grid_col3 .card5{
-    background-image: url(../images/women-in-greenhouse_616x353.jpg);
+    background-image: url(images/women-in-greenhouse_616x353.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }

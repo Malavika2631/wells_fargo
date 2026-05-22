@@ -116,7 +116,7 @@ li i{
     padding-left: 10rem;
 }
 .box1{
-    background-image: url(../images/23113-AdobeStock_133383789_lighter_1700x600_flipped_fade.jpg);
+    background-image: url(images/23113-AdobeStock_133383789_lighter_1700x600_flipped_fade.jpg);
     /* background-color:rgba(235, 232, 232, 0.567); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -232,7 +232,7 @@ li i{
 .box2{
     width: 90%;
     height: 80rem;
-    background-image: url(../images/hp-industry_shutterstock_2179550093_1600x700.avif);
+    background-image: url(images/hp-industry_shutterstock_2179550093_1600x700.avif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -305,17 +305,17 @@ li i{
     font-size: 4rem;
 }
 .box-1{
-    background-image: url(../images/23113-AdobeStock_133383789_lighter_1700x600_flipped_fade.jpg);
+    background-image: url(images/23113-AdobeStock_133383789_lighter_1700x600_flipped_fade.jpg);
     background-repeat: no-repeat;
     background-size: 100% 40%;
 }
 .box-2 {
-    background-image: url(../images/page4-box.jpg);
+    background-image: url(images/page4-box.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 } 
 .box-3 {
-    background-image: url(../images/page4b.avif);
+    background-image: url(images/page4b.avif);
     background-repeat: no-repeat;
     background-size: 100%;
 }

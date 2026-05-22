@@ -117,7 +117,7 @@ li i{
     border-bottom: 0.5rem solid rgb(154, 114, 45);
 }
 .box1{
-    background-image: url(../images/wfi_ph_g_1356386941_1400x530.jpg);
+    background-image: url(images/wfi_ph_g_1356386941_1400x530.jpg);
     /* background-color:rgba(235, 232, 232, 0.567); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -210,7 +210,7 @@ li i{
 .box2{
     width: 90%;
     height: 80rem;
-    background-image: url(../images/wfi000_ph_g_1389708237_1600x700.jpg);
+    background-image: url(images/wfi000_ph_g_1389708237_1600x700.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 4rem auto;
@@ -260,17 +260,17 @@ li i{
     border-radius: 1rem;
 }
 .grid_col2 .card3{
-    background-image: url(../images/couple_in_field_616x353.webp);
+    background-image: url(images/couple_in_field_616x353.webp);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .grid_col2 .card1{
-    background-image: url(../images/WFII-Report_Investment-Strategy_Image-616x353.avif);
+    background-image: url(images/WFII-Report_Investment-Strategy_Image-616x353.avif);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .grid_col2 .card2{
-    background-image: url(../images/wfi000_ph_g_2027802772_616x353.avif);
+    background-image: url(images/wfi000_ph_g_2027802772_616x353.avif);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -296,7 +296,7 @@ li i{
 .app{
     width: 90%;
     height: 85rem;
-    background-image: url(../images/app-ad2.png);
+    background-image: url(images/app-ad2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: auto;
@@ -341,12 +341,12 @@ li i{
     padding-right: 2rem;
 }
 .grid_col3 .card4{
-    background-image: url(../images/wfi_ph_g_603187036_616x353_couple-no-content.avif);
+    background-image: url(images/wfi_ph_g_603187036_616x353_couple-no-content.avif);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .grid_col3 .card5{
-    background-image: url(../images/women-in-greenhouse_616x353.jpg);
+    background-image: url(images/women-in-greenhouse_616x353.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
