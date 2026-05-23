@@ -19,9 +19,11 @@ body{
     height: 9.5rem;
     border-bottom: 0.5rem solid rgb(230, 174, 34);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .heading{
-    width: 66rem;
+    width: auto;
     padding-left: 3rem;
 }
 h1{
@@ -32,18 +34,22 @@ h1{
     margin: 0.1rem 5rem;
     padding: 2.5rem 2rem;
     width: 36rem;
-    /* display: flex; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
 }
 .list{
-    width: 68rem;
+    width: auto;
     height: 4rem;
     padding: 2rem;
-    margin-left: 80rem;
+    margin-left: auto;
     margin-top: 2rem;
     /* background-color: white; */
 }
 .list ul{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 4rem;
     font-size: 2rem;
 }
@@ -60,6 +66,8 @@ li .background{
 }
 .nav ul{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     /* row-gap: 3rem; */
     justify-content: space-evenly;
     font-size: 2rem;
@@ -111,6 +119,8 @@ li i{
 .line1 ul{
     gap: 2rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     /* justify-content: space-around; */
     font-size: 2rem;
     padding-left: 10rem;
@@ -124,6 +134,8 @@ li i{
     height: 60rem;
     margin: 2rem auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .form_box{
     width: 40rem;
@@ -209,6 +221,8 @@ li i{
 }
 .open1{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 2rem;
     text-align: center;
 }
@@ -461,7 +475,7 @@ li i{
     width: 25rem;
     height: 4rem;
     font-size: 1.75rem;
-    margin-left: 80rem;
+    margin-left: auto;
     border-radius: 2rem;
 }
 .last button:hover{
@@ -494,6 +508,8 @@ li i{
 }
 .footer .line1 ul{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 .footer .line1 span{
